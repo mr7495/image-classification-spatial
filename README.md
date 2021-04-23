@@ -14,6 +14,11 @@ On the other hand, although GAP layers are optimized and decrease the model's we
 We proposed another architecture which is called Wise-SrNet, for solving this problem without increasing computational costs.
 Wise-SrNet comes with several ideas:
 
+# 1-Depthwise convolutional layer for extracting spatial data
+
+The main core of Wise-SrNet is a depthwise convolutional layer with some specific parameters. It has a kernel size equal to the kernel size of the feature map. For example, if the feature map's shape is 7*7*2048, then the kernel size of the depthwise convolutional layer will be 7*7. This way, this layer will be able to analyze both the spatial and channel values of the feature map without losing any data. As the depthwise convolutional layer applies different sets of weights for each channel separately, the number of weights will not be much higher. Based on our experiments, using bias parameters and not using any activation function on this layer will show better results. No regularization was also utilized in our work.
+
+# 2-Non-negative constraint
 
 
 
