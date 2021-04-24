@@ -12,7 +12,7 @@ Three image classification benchmarks were studied in this paper:
 
 3-MIT Indoors Scenes  </br> (https://www.kaggle.com/itsahmad/indoor-scenes-cvpr-2019) </br> 
 
-Part of the code for training ResNet50 with Global Average Pooling layer :
+Part of the code for training Xception with Global Average Pooling layer on 512x512 images:
 
 ```
 shape=(512,512,3)
