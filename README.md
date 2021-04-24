@@ -25,6 +25,20 @@ preds=keras.layers.Dense(67,activation='softmax',
 model=keras.Model(inputs=base_model.input, outputs=preds) 
 ```
 
+Part of the code for training Xception with Wise-SrNet on 512x512 images:
 
-
+```
+shape=(512,512,3)
+input_tensor=keras.Input(shape=shape)
+base_model=keras.applications.Xception(input_tensor=input_tensor,weights='imagenet',include_top=False)
+avg=keras.layers.AveragePooling2D(3,padding='valid')(base_model.output)
+depthw=keras.layers.DepthwiseConv2D(5,
+                                      depthwise_initializer=keras.initializers.RandomNormal(mean=0.0,stddev=0.01),
+                                      bias_initializer=keras.initializers.Zeros(),depthwise_constraint=keras.constraints.NonNeg())(avg)
+flat=keras.layers.Flatten()(depthw)
+preds=keras.layers.Dense(67,activation='softmax',
+                          kernel_initializer=keras.initializers.RandomNormal(mean=0.0,stddev=0.01),
+                          bias_initializer=keras.initializers.Zeros(),)(flat)
+model=keras.Model(inputs=base_model.input, outputs=preds)  
+```
 
