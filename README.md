@@ -54,7 +54,7 @@ base_model=keras.applications.NASNetLarge(input_tensor=input_tensor,weights='ima
 
 each architecture is fully explained in the paper
 
-**codes on the Selected portion of the ImageNet dataset using ResNet50 and 224x224 images:** 
+**Classification codes on the Selected portion of the ImageNet dataset using ResNet50 and 224x224 images:** 
 
 ResNet50+GAP: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_GAP_224.ipynb
 ResNet50+GAP+DP: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_GAP_dp(0_5)_224.ipynb
@@ -64,8 +64,17 @@ ResNet50+pre-avg+Depthw+constraint(Wise-SrNet): https://github.com/mr7495/image-
 ResNet50+pre-avg+Depthw+constraint+DP(Wise-SrNet with dropout): https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_avg_Depthw_constraints_dp(0_5)_224.ipynb
 
 
-**codes on the Intel image classification dataset using DenseNet169 and 224x224 images:** 
+**Classification codes on the Intel image classification dataset using DenseNet169 and 224x224 images:** 
 
 DenseNet169+GAP: https://github.com/mr7495/image-classification-spatial/blob/main/Intel_DenseNet169_GAP_224.ipynb</br> 
 DenseNet169+Depthw+constraint: https://github.com/mr7495/image-classification-spatial/blob/main/Intel_DenseNet169_depthw_constaints_224.ipynb</br> 
 DenseNet169+pre-avg+Depthw+constraint(Wise-SrNet): https://github.com/mr7495/image-classification-spatial/blob/main/Intel_DenseNet169_avg_depthw_constaints_224.ipynb</br> 
+
+**Classification codes on the MIT Indoors Scenes dataset using Xception and 224x224 images:** 
+
+Xception+GAP: https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_GAP_224.ipynb</br> 
+Xception+GAP+DP: https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_GAP_dp(0_5)_224.ipynb</br> 
+Xception+Depthw+constraint: https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_depthw_constraints_224.ipynb</br> 
+Xception+pre-avg+Depthw+constraint(Wise-SrNet): https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_avg_depthw_constraints_224.ipynb</br> 
+Xception+pre-avg+Depthw+constraint+DP(Wise-SrNet with dropout): https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_avg_depthw_constraints_dp(0_5)_224.ipynb
+
