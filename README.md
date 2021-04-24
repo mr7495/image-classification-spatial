@@ -6,7 +6,7 @@ The paper aims to fix the spatial resolution loss problem caused by Global Avera
 
 Three image classification benchmarks were studied in this paper:
 
-1-A selected portion of the ImageNet dataset, including 70 classes </br> (https://www.kaggle.com/mohammadrahimzadeh/imagenet-70classes)
+1-A selected portion of the ImageNet dataset, including 70 classes </br> {link}(https://www.kaggle.com/mohammadrahimzadeh/imagenet-70classes)
 2-Intel Image Classification Challenge</br> (https://www.kaggle.com/puneet6060/intel-image-classification)
 3-MIT Indoors Scenes (https://www.kaggle.com/itsahmad/indoor-scenes-cvpr-2019)
 
