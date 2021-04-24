@@ -56,12 +56,12 @@ each architecture is fully explained in the paper
 
 **codes on the Selected portion of the ImageNet dataset using ResNet50 and 224x224 images:** 
 
-*ResNet50+GAP: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_GAP_224.ipynb
-*ResNet50+GAP+DP: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_GAP_dp(0_5)_224.ipynb
-ResNet50+Depthw:
-ResNet50+Depthw+constraint:
-ResNet50+pre-avg+Depthw+constraint(Wise-SrNet):
-ResNet50+pre-avg+Depthw+constraint+DP(Wise-SrNet with dropout):
+ResNet50+GAP: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_GAP_224.ipynb
+ResNet50+GAP+DP: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_GAP_dp(0_5)_224.ipynb
+ResNet50+Depthw: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_Depthw_224.ipynb
+ResNet50+Depthw+constraint: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_Depthw_constraints_224.ipynb
+ResNet50+pre-avg+Depthw+constraint(Wise-SrNet): https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_avg_Depthw_constraints_224.ipynb
+ResNet50+pre-avg+Depthw+constraint+DP(Wise-SrNet with dropout): https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_avg_Depthw_constraints_dp(0_5)_224.ipynb
 
 
 
