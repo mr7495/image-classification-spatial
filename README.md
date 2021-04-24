@@ -73,17 +73,17 @@ DenseNet169+pre-avg+Depthw+constraint(Wise-SrNet): [Intel_DenseNet169_avg_depthw
 
 **Classification codes on the MIT Indoors Scenes dataset using Xception and 224x224 images:** 
 
-Xception+GAP: https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_GAP_224.ipynb</br> 
-Xception+GAP+DP: https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_GAP_dp(0_5)_224.ipynb</br> 
-Xception+Depthw+constraint: https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_depthw_constraints_224.ipynb</br> 
-Xception+pre-avg+Depthw+constraint(Wise-SrNet): https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_avg_depthw_constraints_224.ipynb</br> 
-Xception+pre-avg+Depthw+constraint+DP(Wise-SrNet with dropout): https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_avg_depthw_constraints_dp(0_5)_224.ipynb
+Xception+GAP: [MIT_Xception_GAP_224.ipynb](MIT_Xception_GAP_224.ipynb)</br> 
+Xception+GAP+DP: [MIT_Xception_GAP_dp(0_5)_224.ipynb](MIT_Xception_GAP_dp(0_5)_224.ipynb)</br> 
+Xception+Depthw+constraint: [MIT_Xception_depthw_constraints_224.ipynb](MIT_Xception_depthw_constraints_224.ipynb)</br> 
+Xception+pre-avg+Depthw+constraint(Wise-SrNet): [MIT_Xception_avg_depthw_constraints_224.ipynb](MIT_Xception_avg_depthw_constraints_224.ipynb)</br> 
+Xception+pre-avg+Depthw+constraint+DP(Wise-SrNet with dropout): [MIT_Xception_avg_depthw_constraints_dp(0_5)_224.ipynb](MIT_Xception_avg_depthw_constraints_dp(0_5)_224.ipynb)
 
 **Classification codes on the MIT Indoors Scenes dataset using Xception and 512x512 images:** 
 
-Xception+GAP: https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_GAP_512.ipynb</br> 
-Xception+Flatten+FC: https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_flatten_FC_512.ipynb</br> 
-Xception+pre-avg+Depthw+constraint(Wise-SrNet): https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_avg_depthw_constraints_512.ipynb</br> 
+Xception+GAP: [MIT_Xception_GAP_512.ipynb](MIT_Xception_GAP_512.ipynb)</br> 
+Xception+Flatten+FC: [MIT_Xception_flatten_FC_512.ipynb](MIT_Xception_flatten_FC_512.ipynb)</br> 
+Xception+pre-avg+Depthw+constraint(Wise-SrNet): [MIT_Xception_avg_depthw_constraints_512.ipynb](MIT_Xception_avg_depthw_constraints_512.ipynb)</br> 
 
 
 Our experiments revealed a very good improvement on 224x224 images and a significant improvement on 512x512 images. Whatever the images are larger, and the number of classes is more, our architecture shows more increment in accuracy than the Global Average Pooling. For more details about the usage of transfer learning, please read the paper.
