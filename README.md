@@ -18,10 +18,10 @@ Part of the code for training Xception with Global Average Pooling layer on 512x
 shape=(512,512,3)
 input_tensor=keras.Input(shape=shape)
 base_model=keras.applications.Xception(input_tensor=input_tensor,weights='imagenet',include_top=False)
-avg=keras.layers.GlobalAveragePooling2D()(base_model.output)
+gavg=keras.layers.GlobalAveragePooling2D()(base_model.output)
 preds=keras.layers.Dense(67,activation='softmax',
                           kernel_initializer=keras.initializers.RandomNormal(mean=0.0,stddev=0.01),
-                          bias_initializer=keras.initializers.Zeros(),)(avg)
+                          bias_initializer=keras.initializers.Zeros(),)(gavg)
 model=keras.Model(inputs=base_model.input, outputs=preds) 
 ```
 
