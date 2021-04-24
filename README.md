@@ -42,7 +42,7 @@ preds=keras.layers.Dense(67,activation='softmax',
 model=keras.Model(inputs=base_model.input, outputs=preds)  
 ```
 
-**In all the attached codes for training with various architectures, if you wish to use a different model like NasNet instead of Xception, you must replace the Xception with NASNetLarge in the next line of the code:
+**In all the attached codes for training with various architectures, if you wish to use a different model like NasNet instead of Xception, you must replace the Xception with NASNetLarge in the next line of the code:**
 
 ```
 base_model=keras.applications.Xception(input_tensor=input_tensor,weights='imagenet',include_top=False)
