@@ -85,7 +85,7 @@ Xception+Flatten+FC: https://github.com/mr7495/image-classification-spatial/blob
 Xception+pre-avg+Depthw+constraint(Wise-SrNet): https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_avg_depthw_constraints_512.ipynb</br> 
 
 
-Our experiments revealed a very good improvement on 224x224 images and a significant improvement on 512x512 images. Whatever the images are larger, and the number of classes is more, our architecture shows more increment in accuracy than the Global Average Pooling.
+Our experiments revealed a very good improvement on 224x224 images and a significant improvement on 512x512 images. Whatever the images are larger, and the number of classes is more, our architecture shows more increment in accuracy than the Global Average Pooling. For more details about the usage of transfer learning, please read the paper.
 
 
 **For using our proposed methods, please cite it by:**
