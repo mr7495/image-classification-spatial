@@ -49,3 +49,8 @@ base_model=keras.applications.Xception(input_tensor=input_tensor,weights='imagen
 
 base_model=keras.applications.NASNetLarge(input_tensor=input_tensor,weights='imagenet',include_top=False)
 ```
+
+Classification codes on the Selected portion of the ImageNet dataset using ResNet50 and 224x224 images: 
+
+ResNet50 + GAP: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_GAP_224.ipynb
+
