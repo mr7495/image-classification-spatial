@@ -57,11 +57,11 @@ Each architecture is fully explained in the paper.
 **Classification codes on the Selected portion of the ImageNet dataset using ResNet50 and 224x224 images:** 
 
 ResNet50+GAP: [Sub_ImageNet_ResNet50_GAP_224.ipynb](Sub_ImageNet_ResNet50_GAP_224.ipynb) </br> 
-ResNet50+GAP+DP: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_GAP_dp(0_5)_224.ipynb</br> 
-ResNet50+Depthw: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_Depthw_224.ipynb</br> 
-ResNet50+Depthw+constraint: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_Depthw_constraints_224.ipynb</br> 
-ResNet50+pre-avg+Depthw+constraint(Wise-SrNet): https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_avg_Depthw_constraints_224.ipynb</br> 
-ResNet50+pre-avg+Depthw+constraint+DP(Wise-SrNet with dropout): https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_avg_Depthw_constraints_dp(0_5)_224.ipynb
+ResNet50+GAP+DP: [Sub_ImageNet_ResNet50_GAP_dp(0_5)_224.ipynb](Sub_ImageNet_ResNet50_GAP_dp(0_5)_224.ipynb)</br> 
+ResNet50+Depthw: [Sub_ImageNet_ResNet50_Depthw_224.ipynb](Sub_ImageNet_ResNet50_Depthw_224.ipynb)</br> 
+ResNet50+Depthw+constraint: [Sub_ImageNet_ResNet50_Depthw_constraints_224.ipynb](Sub_ImageNet_ResNet50_Depthw_constraints_224.ipynb)</br> 
+ResNet50+pre-avg+Depthw+constraint(Wise-SrNet): [Sub_ImageNet_ResNet50_avg_Depthw_constraints_224.ipynb](Sub_ImageNet_ResNet50_avg_Depthw_constraints_224.ipynb)</br> 
+ResNet50+pre-avg+Depthw+constraint+DP(Wise-SrNet with dropout): [Sub_ImageNet_ResNet50_avg_Depthw_constraints_dp(0_5)_224.ipynb](Sub_ImageNet_ResNet50_avg_Depthw_constraints_dp(0_5)_224.ipynb)
 
 
 **Classification codes on the Intel image classification dataset using DenseNet169 and 224x224 images:** 
