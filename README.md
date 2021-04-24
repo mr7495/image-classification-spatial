@@ -52,6 +52,7 @@ base_model=keras.applications.NASNetLarge(input_tensor=input_tensor,weights='ima
 
 # Classification codes:
 
+In this part, the classification codes for running on the mentioned datasets have been shared.</br> 
 Each architecture is fully explained in the paper.
 
 **Classification codes on the Selected portion of the ImageNet dataset using ResNet50 and 224x224 images:** 
