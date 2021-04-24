@@ -78,3 +78,10 @@ Xception+Depthw+constraint: https://github.com/mr7495/image-classification-spati
 Xception+pre-avg+Depthw+constraint(Wise-SrNet): https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_avg_depthw_constraints_224.ipynb</br> 
 Xception+pre-avg+Depthw+constraint+DP(Wise-SrNet with dropout): https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_avg_depthw_constraints_dp(0_5)_224.ipynb
 
+**Classification codes on the MIT Indoors Scenes dataset using Xception and 512x512 images:** 
+
+Xception+GAP: https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_GAP_512.ipynb</br> 
+Xception+Flatten+FC: https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_flatten_FC_512.ipynb</br> 
+Xception+pre-avg+Depthw+constraint(Wise-SrNet): https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_avg_depthw_constraints_512.ipynb</br> 
+
+
