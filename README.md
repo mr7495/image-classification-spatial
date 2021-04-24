@@ -4,7 +4,10 @@
 
 The paper aims to fix the spatial resolution loss problem caused by Global Average Pooling layers. The final introduced architecture is called Wise-SrNet, which enables the model to create the classification array from the feature map without losing data and also keeping almost the same computational cost.
 
-
+Three image classification benchmarks were studied in this paper:</br>
+1-A selected portion of the ImageNet dataset, including 70 classes </br>
+2-Intel Image Classification Challenge</br>
+3-MIT Indoors Scenes
 
 
 
