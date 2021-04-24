@@ -52,10 +52,17 @@ base_model=keras.applications.NASNetLarge(input_tensor=input_tensor,weights='ima
 
 # Classification codes:
 
-**each architecture is fully explained in the paper
+each architecture is fully explained in the paper
 
 **codes on the Selected portion of the ImageNet dataset using ResNet50 and 224x224 images:** 
 
-ResNet50 + GAP: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_GAP_224.ipynb
-ResNet50 + GAP + DP: 
+*ResNet50+GAP: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_GAP_224.ipynb
+*ResNet50+GAP+DP: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_GAP_dp(0_5)_224.ipynb
+ResNet50+Depthw:
+ResNet50+Depthw+constraint:
+ResNet50+pre-avg+Depthw+constraint(Wise-SrNet):
+ResNet50+pre-avg+Depthw+constraint+DP(Wise-SrNet with dropout):
+
+
+
 
