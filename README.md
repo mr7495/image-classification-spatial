@@ -66,9 +66,9 @@ ResNet50+pre-avg+Depthw+constraint+DP(Wise-SrNet with dropout): [Sub_ImageNet_Re
 
 **Classification codes on the Intel image classification dataset using DenseNet169 and 224x224 images:** 
 
-DenseNet169+GAP: https://github.com/mr7495/image-classification-spatial/blob/main/Intel_DenseNet169_GAP_224.ipynb</br> 
-DenseNet169+Depthw+constraint: https://github.com/mr7495/image-classification-spatial/blob/main/Intel_DenseNet169_depthw_constaints_224.ipynb</br> 
-DenseNet169+pre-avg+Depthw+constraint(Wise-SrNet): https://github.com/mr7495/image-classification-spatial/blob/main/Intel_DenseNet169_avg_depthw_constaints_224.ipynb</br> 
+DenseNet169+GAP: [Intel_DenseNet169_GAP_224.ipynb](Intel_DenseNet169_GAP_224.ipynb)</br> 
+DenseNet169+Depthw+constraint: [Intel_DenseNet169_depthw_constaints_224.ipynb](Intel_DenseNet169_depthw_constaints_224.ipynb)</br> 
+DenseNet169+pre-avg+Depthw+constraint(Wise-SrNet): [Intel_DenseNet169_avg_depthw_constaints_224.ipynb](Intel_DenseNet169_avg_depthw_constaints_224.ipynb)</br> 
 
 **Classification codes on the MIT Indoors Scenes dataset using Xception and 224x224 images:** 
 
