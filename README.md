@@ -56,7 +56,7 @@ Each architecture is fully explained in the paper.
 
 **Classification codes on the Selected portion of the ImageNet dataset using ResNet50 and 224x224 images:** 
 
-ResNet50+GAP: Sub_ImageNet_ResNet50_GAP_224.ipynb</br> 
+ResNet50+GAP: Sub_ImageNet_ResNet50_GAP_224.ipynb </br> 
 ResNet50+GAP+DP: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_GAP_dp(0_5)_224.ipynb</br> 
 ResNet50+Depthw: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_Depthw_224.ipynb</br> 
 ResNet50+Depthw+constraint: https://github.com/mr7495/image-classification-spatial/blob/main/Sub_ImageNet_ResNet50_Depthw_constraints_224.ipynb</br> 
