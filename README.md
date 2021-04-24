@@ -85,3 +85,15 @@ Xception+Flatten+FC: https://github.com/mr7495/image-classification-spatial/blob
 Xception+pre-avg+Depthw+constraint(Wise-SrNet): https://github.com/mr7495/image-classification-spatial/blob/main/MIT_Xception_avg_depthw_constraints_512.ipynb</br> 
 
 
+
+**For using our proposed methods, please cite it by:**
+ ```
+@article{wise-srnet,
+author = {Rahimzadeh, Mohammad and Parvin, Soroush and Safi, Elnaz and Mohammadi, Mohammad Reza},
+year = {2021},
+title = {Wise-SrNet: A Novel Architecture for Enhancing Image Classification by Learning Spatial Resolution of Feature Maps},
+doi = {10.13140/RG.2.2.11271.93606/2}
+}
+ ```
+
+ If you have any questions, contact me by this email : mr7495@yahoo.com
