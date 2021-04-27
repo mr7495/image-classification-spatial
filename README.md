@@ -1,6 +1,6 @@
 # Wise-SrNet: A Novel Architecture for Enhancing Image Classification by Learning Spatial Resolution of Feature Maps
 
-**Source paper:** [10.13140/RG.2.2.11271.93606/4](https://doi.org/10.13140/RG.2.2.11271.93606/4)
+**Source paper:** [arxiv:2104.12294](https://arxiv.org/abs/2104.12294)
 
 The paper aims to fix the spatial resolution loss problem caused by Global Average Pooling layers. The final introduced architecture is called Wise-SrNet, which enables the model to create the classification array from the feature map without losing data and also keeping almost the same computational cost.
 
@@ -91,11 +91,13 @@ Our experiments revealed a very good improvement on 224x224 images and a signifi
 
 **For using our proposed methods, please cite it by:**
  ```
-@article{wise-srnet,
-author = {Rahimzadeh, Mohammad and Parvin, Soroush and Safi, Elnaz and Mohammadi, Mohammad Reza},
-year = {2021},
-title = {Wise-SrNet: A Novel Architecture for Enhancing Image Classification by Learning Spatial Resolution of Feature Maps},
-doi = {10.13140/RG.2.2.11271.93606/4}
+@misc{rahimzadeh2021wisesrnet,
+      title={Wise-SrNet: A Novel Architecture for Enhancing Image Classification by Learning Spatial Resolution of Feature Maps}, 
+      author={Mohammad Rahimzadeh and Soroush Parvin and Elnaz Safi and Mohammad Reza Mohammadi},
+      year={2021},
+      eprint={2104.12294},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
  ```
 
