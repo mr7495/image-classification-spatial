@@ -91,13 +91,11 @@ Our experiments revealed a very good improvement on 224x224 images and a signifi
 
 **For using our proposed methods, please cite it by:**
  ```
-@misc{rahimzadeh2021wisesrnet,
-      title={Wise-SrNet: A Novel Architecture for Enhancing Image Classification by Learning Spatial Resolution of Feature Maps}, 
-      author={Mohammad Rahimzadeh and Soroush Parvin and Elnaz Safi and Mohammad Reza Mohammadi},
-      year={2021},
-      eprint={2104.12294},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{rahimzadeh2021wise,
+  title={Wise-SrNet: A Novel Architecture for Enhancing Image Classification by Learning Spatial Resolution of Feature Maps},
+  author={Rahimzadeh, Mohammad and Parvin, Soroush and Safi, Elnaz and Mohammadi, Mohammad Reza},
+  journal={arXiv preprint arXiv:2104.12294},
+  year={2021}
 }
  ```
 
